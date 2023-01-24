@@ -12,22 +12,13 @@
         android:id="@+id/msgimc"
         android:layout_marginTop="30dp"
         android:textSize="20sp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/teal_700"
         android:text="@string/message_imc"
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/msgCalculo"
-        android:layout_below="@+id/msgimc"
-        android:layout_marginTop="30dp"
-        android:textSize="20sp"
-        android:textColor="@color/purple_700"
-        android:text="@string/message_calculo"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+
 
     <EditText
         android:maxLength="6"
@@ -54,7 +45,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="169dp"
+        android:layout_marginBottom="135dp"
         android:text="CALCULAR" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="217dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/calculoimc"
+        android:layout_below="@+id/msgimc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"/>
+
 
 </RelativeLayout>
